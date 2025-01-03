@@ -1,9 +1,11 @@
 local function CreateModelMenu()
-    local frame = vgui.Create('DFrame')
-    Mantle.ui.frame(frame, '', 600, 400, true)
+    local frame = vgui.Create('MantleFrame')
+    frame:SetSize(600, 400)
     frame:Center()
     frame:MakePopup()
-    frame.center_title = 'Кастомизация модели'
+    frame:SetTitle('')
+    frame:SetCenterTitle('Кастомизация модели')
+    frame:SetAlphaBackground(true)
 
     local lp = LocalPlayer()
 
