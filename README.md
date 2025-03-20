@@ -1,9 +1,9 @@
 # bodygroupchanger
-Minimalistic menu for changing items on the model in Garry's Mod
+Минималистичное меню для изменения элементов на модели в Garry's Mod.
 
-Console command to open the menu: `bodygroupchanger_menu`
+Команда в консоли для открытия меню: `bodygroupchanger_menu`
 
-🔧 [Mantle](https://github.com/darkfated/mantle): in order for the system to work, you need to use this Gmod library
+🔧 [Mantle](https://github.com/darkfated/mantle): для работы системы необходимо использовать эту библиотеку для Gmod
 
-## Screenshot 🖼️
+## Скриншот 🖼️
 <img src='https://github.com/darkfated/bodygroupchanger/assets/49955245/0058ce6b-dffb-40be-8bcf-d365f94f74ed' width='700px'>
