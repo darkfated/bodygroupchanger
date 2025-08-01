@@ -12,3 +12,16 @@ net.Receive('BodygroupChanger-UpdateSkin', function(_, pl)
     local skinID = net.ReadInt(8)
     pl:SetSkin(skinID)
 end)
+
+local chatCommands = {
+    ['/clothes'] = true,
+    ['/одежда'] = true,
+    ['!clothes'] = true,
+    ['!одежда'] = true
+}
+hook.Add('PlayerSay', 'BodygroupChanger.ChatCommand', function(pl, text)
+    if chatCommands[text:lower()] then
+        pl:ConCommand('bodygroupchanger_menu')
+        return ''
+    end
+end)
